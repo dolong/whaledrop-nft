@@ -1,0 +1,35 @@
+body {
+    width: 783px;
+    min-height: 600px;
+    position: relative;
+    vertical-align: middle;
+}
+
+#alpacaTableBody img {
+    width: 80px;
+}
+
+#walletInfo {
+    padding: 10px 20px 0px 20px;
+    width: 100%;
+    height: 60px;
+}
+
+#connectedWallet {
+    width: 50%;
+    float: left;
+}
+
+#connectWallet {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.paginate_button {
+    padding: 5px;
+}
+
+#back {
+    cursor: pointer;
+}

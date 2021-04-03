@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="assets/result-light.css">
+    <script type="text/javascript" src="assets/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="assets/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="assets/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="assets/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap.min.js"></script>
+    <link href="assets/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/responsive.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/buttons.dataTables.min.css">
+    <script type="text/javascript" src="assets/dataTables.min.js"></script>
+    <script type="text/javascript" src="assets/dataTables.responsive.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <style>
+        @font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url('assets/fonts/glyphicons-halflings-regular.eot');
+            src: url('assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('assets/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+        }
+    </style>
+</head>
+
+<body>
+    <div class="panel-group" id="all-data-table" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-all-data-table">
+                <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#all-data-table" href="#collapse-all-data-table" aria-expanded="true" aria-controls="collapse-all-data-table">
+                     Alpacas
+                    </a>
+                </h4>
+            </div>
+            <div id="walletInfo">
+                <div id="connectedWallet">
+                    <span id="linkedWallet"><span id="address">Not Set</span></span>
+                </div>
+                <!--div id="connectWallet">Wallet: <input type="text" id="text" value="0xb61193014Fc983b3475d6bF365B7647c2E52b713"></input><br>
+                    <button id="set">Set New Wallet</button>
+                </div-->
+            </div>
+            <div id="collapse-all-data-table" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-all-data-table">
+                <div class="panel-body" id="alpacaTable">
+                    <table id="example" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th wid>Image</th>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>total_energy</th>
+                                <th>breeding_cost</th>
+                                <th>Current Multiplier</th>
+                                <th>Traits</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="alpacaTableBody">
+                            <!--Data of Alpacas Goes here-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a href="navigation.html"></a><a id="set" href="#">set</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="data">
+
+    </div>
+    <script src="grabAlpaca.js"></script>
+</body>
+
+</html>

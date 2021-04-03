@@ -1,0 +1,13 @@
+{
+    "alpacas": {
+        "name": "adjusted pipefish",
+        "description": "",
+        "image": "https://d2jscuii9czrw5.cloudfront.net/alpacas/svg/40322.svg",
+        "external_url": "https://alpaca.city/alpaca/40322",
+        "background_color": "",
+        "attributes": [
+            { "trait_type": "accent_color", "value": "perano" }, { "trait_type": "base_color", "value": "sail" }, { "trait_type": "ears", "value": "cashew" }, { "trait_type": "eye_color", "value": "sea rock" }, { "trait_type": "eye_shape", "value": "cute" }, { "trait_type": "hairs", "value": "wind wings" }, { "trait_type": "highlight_color", "value": "misty blue" }, { "trait_type": "mouth", "value": "singing" }, { "trait_type": "pattern", "value": "inferno" }, { "trait_type": "tail", "value": "lightning" }, { "trait_type": "unknown1", "value": "unknown" }, { "trait_type": "unknown2", "value": "unknown" }, { "display_type": "date", "trait_type": "birthday", "value": 1616517332 }, { "display_type": "boost_number", "trait_type": "energy", "value": 1144 }, { "display_type": "number", "trait_type": "generation", "value": 1 }, { "display_type": "number", "trait_type": "breeding fee", "value": 12 }, { "display_type": "date", "trait_type": "able to breed at", "value": 1617842089 }
+        ]
+    }
+
+}
