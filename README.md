@@ -21,7 +21,6 @@ A tool to track your NFTs
 I would appreciate any donations to my wallet 0xb61193014Fc983b3475d6bF365B7647c2E52b713. Thank you!
 
 ## Screenshot
-
     <img width="200px;" src="/screenshots/screenshot1.png">
 ![screenshot](/screenshots/screenshot1.png)
 ![screenshot](/screenshots/screenshot2.png)
