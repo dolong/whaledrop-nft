@@ -1,7 +1,11 @@
-<a target="_blank" href="#">![Try it now in CWS](assets/whalelogo.png "Link to webstore coming soon")</a>
+<h1 align="center">
+  <br>
+  <a href="#"><img src="assets/whalelogo.png" alt="WhaleDrop" width="200"></a>
+  <br>
+  <br>
+</h1>
 
-
-# Whale Drop NFT Tools
+# WhaleDrop NFT Tools
 
 A tool to track your NFTs
 
@@ -10,10 +14,21 @@ A tool to track your NFTs
 
 
 
-     
+
+## Support
+
+I would appreciate any donations to my wallet 0xb61193014Fc983b3475d6bF365B7647c2E52b713. Thank you!
+
 ## Screenshot
-![screenshot](/screenshots/screenshot1.png)
-![screenshot](/screenshots/screenshot2.png)
-![screenshot](/screenshots/screenshot3.png)
-![screenshot](/screenshots/screenshot4.png)
-![screenshot](/screenshots/wd6.png)
+![screenshot](/screenshots/screenshot1.png =250x)
+![screenshot](/screenshots/screenshot2.png =250x)
+![screenshot](/screenshots/screenshot3.png =250x)
+![screenshot](/screenshots/screenshot4.png =250x)
+![screenshot](/screenshots/wd6.png =250x)
+
+
+<br/>
+<p align="center">
+    <img width="200px" src="/screenshots/screenshot1.png">
+</p>
+<br/>

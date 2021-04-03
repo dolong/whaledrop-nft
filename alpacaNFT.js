@@ -29,7 +29,6 @@ document.body.onload = async function() {
         let callAlpacaDataIdle = getAlpacaStorage("alpacaDataIdle")
         let callAlpacaDataInUse = getAlpacaStorage("alpacaDataInUse")
             //let callAlpacaDataSquad = getAlpacaStorage("alpacaDataSquad")
-            //const callAlpacaDataSquad = getAlpacaStorage("alpacaDataSquad")
 
         arrayOfAlpacaCalls = [callInUseAPI, callIdleAPI, , callAlpacaDataIdle, callAlpacaDataInUse, ]
         Promise.all(arrayOfAlpacaCalls).then((values) => {
@@ -37,9 +36,6 @@ document.body.onload = async function() {
 
         })
     })
-
-    // document.getElementById("linkedWallet").innerText = `Wallet Connected: ${(address)}`
-
 
     async function requestAlpacaCity(url, storageName) {
         var alpacaCityRequest = new XMLHttpRequest();
@@ -55,10 +51,8 @@ document.body.onload = async function() {
                     console.log("Runtime error.");
                 }
             });
-            //console.log('after set')
         }
         await alpacaCityRequest.send();
-        //console.log("sent request")
 
     }
 
@@ -68,12 +62,8 @@ document.body.onload = async function() {
                 if (!chrome.runtime.error) {
                     console.log(`getting ${data} from chrome storage`)
 
-                    //alert(data + JSON.stringify(items))
-
-                    //alert(items[data].data.alpacas)
                     try {
                         let alpacas = items[data].data.alpacas
-                            //alert(JSON.stringify(items[data].data.alpacas));
 
                         for (var i in alpacas) {
                             alpaca = alpacas[i]
@@ -114,7 +104,6 @@ document.body.onload = async function() {
 
         //Sort the Important traits
         const traits = alpacaJson.attributes
-            //console.log(traits)
         let attrs = ""
 
         for (var i in traits) {
@@ -151,31 +140,6 @@ document.body.onload = async function() {
                     break;
             }
         }
-        console.log(attrs)
         return attrs;
     }
 };
-
-
-
-
-// document.getElementById("set").onclick = function() {
-//     $(".showTraits").each(function() {
-//         alpacaId = ($(this).attr("data-attribute"));
-//         let url = `https://apibsc.alpaca.city/metadata/${alpacaId}`
-//         console.log(url)
-//             // const response = await fetch(url, {});
-//             // const json = await response.json();
-
-//         //$(`*[data-attribute="${alpacaId}"`).html("2")
-
-//         $.get(url, function(data) {
-//             alpacaId = url.substring(url.indexOf("metadata/") + 9, url.length)
-//                 //$(`*[data-attribute="${alpacaId}"`).html(data.name)
-//                 //alert("Load was performed.");
-//                 //$(`*[data-attribute="${alpacaId}"`).html(JSON.stringify(data.attributes))
-//             $(`*[data-attribute="${alpacaId}"`).html(getAlpaca(data))
-//         });
-
-//     })
-// }

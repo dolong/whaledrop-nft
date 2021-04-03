@@ -42,7 +42,6 @@ function getAlpaca(alpacaJson) {
 
     //Sort the Important traits
     const traits = alpacaJson.attributes
-        //console.log(traits)
     let attrs = ""
 
     for (var i in traits) {
@@ -84,27 +83,3 @@ function getAlpaca(alpacaJson) {
     }
     return attrs;
 }
-
-
-
-
-// document.getElementById("set").onclick = function() {
-//     $(".showTraits").each(function() {
-//         alpacaId = ($(this).attr("data-attribute"));
-//         let url = `https://apibsc.alpaca.city/metadata/${alpacaId}`
-//         console.log(url)
-//             // const response = await fetch(url, {});
-//             // const json = await response.json();
-
-//         //$(`*[data-attribute="${alpacaId}"`).html("2")
-
-//         $.get(url, function(data) {
-//             alpacaId = url.substring(url.indexOf("metadata/") + 9, url.length)
-//                 //$(`*[data-attribute="${alpacaId}"`).html(data.name)
-//                 //alert("Load was performed.");
-//                 //$(`*[data-attribute="${alpacaId}"`).html(JSON.stringify(data.attributes))
-//             $(`*[data-attribute="${alpacaId}"`).html(getAlpaca(data))
-//         });
-
-//     })
-// }
