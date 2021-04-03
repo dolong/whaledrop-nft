@@ -9,7 +9,7 @@
 
 A tool to track your NFTs
 
-**Beta Version Features
+<b>Beta Version Features</b>
 - Alpaca City Integration: View content in your wallet, interact with Bounce, and Treasure Land
 
 
@@ -20,14 +20,6 @@ A tool to track your NFTs
 I would appreciate any donations to my wallet 0xb61193014Fc983b3475d6bF365B7647c2E52b713. Thank you!
 
 ## Screenshot
-![screenshot](/screenshots/screenshot1.png =250x)
-![screenshot](/screenshots/screenshot2.png =250x)
-![screenshot](/screenshots/screenshot3.png =250x)
-![screenshot](/screenshots/screenshot4.png =250x)
-![screenshot](/screenshots/wd6.png =250x)
-
-
-<br/>
 <p align="center">
     <img width="250px" src="/screenshots/screenshot1.png">
     <img width="250px" src="/screenshots/screenshot2.png">
@@ -35,4 +27,3 @@ I would appreciate any donations to my wallet 0xb61193014Fc983b3475d6bF365B7647c
     <img width="250px" src="/screenshots/screenshot4.png">
     <img width="250px" src="/screenshots/wd6.png">
 </p>
-<br/>
