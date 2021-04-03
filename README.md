@@ -13,6 +13,16 @@ A tool to track your NFTs
 <b>Beta Version Features</b>
 - Alpaca City Integration: View content in your wallet, interact with Bounce, and Treasure Land
 
+## Features
+
+<b>Fixing Eggs on Treasure Land and displaying more info</b>
+<img width="80%" src="/screenshots/fixeggs.png">
+<br>
+
+<b>Viewing your Alpaca City NFTs</b>
+<img width="80%" src="/screenshots/alpacadisplay.png">
+
+
 ## Install
 
 
