@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-<a target="_blank" href="#">![Try it now in CWS](assets/whalelogo.png "Link to webstore coming soon")</a>
+![Try it now in CWS](assets/whalelogo.png "Link to webstore coming soon")
   <br>
   WhaleDrop
   <br>
