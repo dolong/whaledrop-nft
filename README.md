@@ -10,7 +10,7 @@
 
 A tool to track your NFTs
 
-<b>Beta Version Features
+<b>Beta Version Features</b>
 - Alpaca City Integration: View content in your wallet, interact with Bounce, and Treasure Land
 
 ## Install
@@ -19,16 +19,16 @@ A tool to track your NFTs
 ```
 1. Open chrome://extensions
 ```
-<img width="250px" src="/screenshots/developermode.png">
 
 ```
 2. Toggle Developer Mode
 ```
-<img width="250px" src="/screenshots/loadunpacked.png">
+<img width="250px" src="/screenshots/developermode.png">
 
 ```
 3. Load unpacked
 ```
+<img width="250px" src="/screenshots/loadunpacked.png">
 
 After that all you have to do is pin the extension and enjoy!
 
