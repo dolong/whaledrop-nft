@@ -31,9 +31,6 @@ document.body.onload = async function() {
         $(`#alpacaName`).html(data.name)
         $(`#alpacaNFT`).html(getAlpaca(data))
     });
-
-    // Render Alpaca
-
 }
 
 
