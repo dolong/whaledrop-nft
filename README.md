@@ -1,3 +1,6 @@
+
+
+# WhaleDrop NFT Tools
 <h1 align="center">
   <br>
   <a href="#"><img src="assets/whalelogo.png" alt="WhaleDrop" width="200"></a>
@@ -5,14 +8,29 @@
   <br>
 </h1>
 
-# WhaleDrop NFT Tools
-
 A tool to track your NFTs
 
 <b>Beta Version Features
 - Alpaca City Integration: View content in your wallet, interact with Bounce, and Treasure Land
 
+## Install
 
+
+```
+1. Open chrome://extensions
+```
+<img width="250px" src="/screenshots/developermode.png">
+
+```
+2. Toggle Developer Mode
+```
+<img width="250px" src="/screenshots/loadunpacked.png">
+
+```
+3. Load unpacked
+```
+
+After that all you have to do is pin the extension and enjoy!
 
 
 ## Support
