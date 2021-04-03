@@ -16,11 +16,11 @@ A tool to track your NFTs
 ## Features
 
 <b>Fixing Eggs on Treasure Land and displaying more info</b>
-<img width="80%" src="/screenshots/fixeggs.png">
+<img width="80%" src="/screenshots/fixeggs.gif">
 <br>
 
 <b>Viewing your Alpaca City NFTs</b>
-<img width="80%" src="/screenshots/alpacadisplay.png">
+<img width="80%" src="/screenshots/alpacadisplay.gif">
 
 
 ## Install
