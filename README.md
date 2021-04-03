@@ -12,10 +12,8 @@ A tool to track your NFTs
 
      
 ## Screenshot
-![screenshot](/screenshots/wd-adjust1.png)
-![screenshot](/screenshots/wd-adjust2.png)
-![screenshot](/screenshots/wd4.png)
+![screenshot](/screenshots/screenshot1.png)
+![screenshot](/screenshots/screenshot2.png)
+![screenshot](/screenshots/screenshot3.png)
+![screenshot](/screenshots/screenshot4.png)
 ![screenshot](/screenshots/wd6.png)
-![screenshot](/screenshots/wd6.png)
-![screenshot](/screenshots/wd6.png)
-
