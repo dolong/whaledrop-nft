@@ -2,12 +2,13 @@
 
 <h1 align="center">
   <br>
-![Try it now in CWS](assets/whalelogo.png "Link to webstore coming soon")
+  <a href="#"><img src="assets/whalelogo.png" alt="WhaleDrop" width="200"></a>
   <br>
   WhaleDrop
   <br>
 </h1>
 
+<a target="_blank" href="#">![Try it now in CWS](assets/whalelogo.png "Link to webstore coming soon")</a>
 
 
 # Whale Drop NFT Tools
