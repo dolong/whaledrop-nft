@@ -72,7 +72,6 @@ function formatResponse(response) {
                 formattedAttributes += `<tr><td>Energy</td><td>${attributes[i].value}</td></tr>`
                 break;
             case "breeding fee reset at":
-                $(`#alpacaBreedingTime`).html(traits[i].value)
                 formattedAttributes += `<tr><td>Breeding Time</td><td>${attributes[i].value}</td></tr>`
                 break;
             case "generation":
