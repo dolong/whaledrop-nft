@@ -55,6 +55,14 @@ alpacaObjects = alpacaObjects.map(async function(element) {
 });
 
 
+function unixTimeStampConverter(unix_timestamp) {
+    var dt = new Date(unix_timestamp * 1000);
+    dt.setTime(dt.getTime() + dt.getTimezoneOffset() * 60 * 1000);
+    var offset = -300; //Timezone offset for EST in minutes.
+    var estDate = new Date(dt.getTime() + offset * 60 * 1000);
+    return (estDate.toString());
+}
+
 function formatResponse(response) {
     alpacaData = JSON.parse(response)
     name = alpacaData.name
@@ -67,7 +75,7 @@ function formatResponse(response) {
                 formattedAttributes += `<tr><td>Energy</td><td>${attributes[i].value}</td></tr>`
                 break;
             case "breeding fee reset at":
-                formattedAttributes += `<tr><td>Breeding Time</td><td>${attributes[i].value}</td></tr>`
+                formattedAttributes += `<tr><td>Breeding Time</td><td>${unixTimeStampConverter(attributes[i].value)}</td></tr>`
                 break;
             case "generation":
                 formattedAttributes += `<tr><td>Gen</td><td>${attributes[i].value}</td></tr>`
@@ -75,11 +83,11 @@ function formatResponse(response) {
         }
     }
 
-    newData = `<tbody><td>
-${formattedAttributes}
-</td></tbody>`
+    newData = `<table><tbody><td>
+ ${formattedAttributes}
+ </td></tbody></table>`
 
-    var newAlpaca = document.createElement("table");
+    var newAlpaca = document.createElement("div");
     newAlpaca.innerHTML = newData + moreAttrs;
 
     return newAlpaca

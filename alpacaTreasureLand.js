@@ -59,6 +59,13 @@ alpacaObjects = alpacaObjects.map(async function(element) {
     return `AlpacaId: ${alpacaId} `;
 });
 
+function unixTimeStampConverter(unix_timestamp) {
+    var dt = new Date(unix_timestamp * 1000);
+    dt.setTime(dt.getTime() + dt.getTimezoneOffset() * 60 * 1000);
+    var offset = -300; //Timezone offset for EST in minutes.
+    var estDate = new Date(dt.getTime() + offset * 60 * 1000);
+    return (estDate.toString());
+}
 
 function formatResponse(response) {
     alpacaData = JSON.parse(response)
@@ -72,7 +79,7 @@ function formatResponse(response) {
                 formattedAttributes += `<tr><td>Energy</td><td>${attributes[i].value}</td></tr>`
                 break;
             case "breeding fee reset at":
-                formattedAttributes += `<tr><td>Breeding Time</td><td>${attributes[i].value}</td></tr>`
+                formattedAttributes += `<tr><td>Breeding Time</td><td>${unixTimeStampConverter(attributes[i].value)}</td></tr>`
                 break;
             case "generation":
                 formattedAttributes += `<tr><td>Gen</td><td>${attributes[i].value}</td></tr>`
@@ -80,11 +87,11 @@ function formatResponse(response) {
         }
     }
 
-    newData = `<tbody><td>
+    newData = `<table><tbody><td>
  ${formattedAttributes}
- </td></tbody>`
+ </td></tbody></table>`
 
-    var newAlpaca = document.createElement("table");
+    var newAlpaca = document.createElement("div");
     newAlpaca.innerHTML = newData + moreAttrs;
 
     return newAlpaca
@@ -177,14 +184,14 @@ function getAlpaca(alpacaJson) {
     }
 
     if (fire_trait_count == 5)
-        attrs += `<h4 style="color: red">FULL FIRE COMBO</h4>`
+        attrs += `<hr><h4 style="color: red">FULL FIRE COMBO</h4>`
     else if (leaf_trait_count == 5)
-        attrs += `<h4 style="color: green">FULL LEAF COMBO</h4>`
+        attrs += `<hr><h4 style="color: green">FULL LEAF COMBO</h4>`
     else if (lightning_trait_count == 5)
-        attrs += `<h4 style="color: orange">FULL LIGHTNING COMBO</h4>`
+        attrs += `<hr><h4 style="color: orange">FULL LIGHTNING COMBO</h4>`
     else {
         attrs +=
-            `<br><p>
+            `<br><hr><p>
                 <span style="color:red">${fire_trait_count}/5 FIRE</span>
                 <span style="color:green">${leaf_trait_count}/5 LEAF</span>
                 <span style="color:orange">${lightning_trait_count}/5 LIGHTNING</span>
