@@ -91,7 +91,7 @@ function getAlpaca(alpacaJson) {
         ]
         const leafTraits = [
             "grass", "spring green", "jade", "downy",
-            "fox", "spectre",
+            "fox", "scepter",
             "batwings",
             "mulan", "cotton candy", "wind wings",
             "leaf"
